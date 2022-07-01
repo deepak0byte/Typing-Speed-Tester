@@ -20,8 +20,8 @@ let startTyping = () => {
     start = currDate.getTime();
     btn.innerText = "Done";
     wpm.innerText = "Current Speed : " + speed;
-    wpm.style.display = 'block';
-    typeWord.style.display = "block";
+    wpm.style.display = 'flex';
+    typeWord.style.display = "flex";
 }
 
  myinterval = setInterval(() => {
